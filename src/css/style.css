@@ -47,6 +47,9 @@ p {
   color: #959eac;
   transition: all 0.2s ease-in-out;
 }
+.card .notes .note:active {
+  transform: scale(0.95);
+}
 .card .notes .note.active {
   background-color: #fb7413;
   color: #fff;
@@ -68,6 +71,9 @@ p {
 .card button:hover {
   background-color: #fff;
   color: #fb7413;
+}
+.card button:active {
+  transform: scale(0.95);
 }
 .card button.error {
   transition: 0.1s ease-out;
